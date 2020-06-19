@@ -23,7 +23,6 @@
 // console.log (result) -- will print out string
 
 
-
 var vacationType= prompt("What kind of trip would you like to go on, Musical, Tropical, or Adventerous?");
 if (vacationType == "Musical") {
    destination= "New Orleans";
@@ -40,14 +39,14 @@ if (vacationType == "Musical") {
 
 
 var groupSize= prompt("How many people are in your group?");
-if (groupSize == 1,2) { 
- travelSuggestion= "First Class"
+if (groupSize < 3 ) { 
+ travelSuggestion= "First Class";
 }
  if (groupSize > 2 < 6) {
-    travelSuggestion= "Helicopter"
+    travelSuggestion= "Helicopter";
 }
 if  (groupSize > 6) {
- travelSuggestion= "Charter Flight" 
+ travelSuggestion= "Charter Flight";
 }
 
 
